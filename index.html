@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Cute Password Page</title>
+  </head>
+  <body>
+    <div class="container">
+      <h2 class="description">Nhập mật khẩu để mới vào được nha !!!</h2>
+      <button class="script" id="script" onclick="description()">
+        <h4>Gợi ý đây nè Pà dà !!!</h4>
+      </button>
+      <div id="passwordForm">
+        <label for="password">Password:</label>
+        <input type="password" id="password" placeholder="Enter password" />
+        <button class="btn-submit" onclick="checkPassword()">Submit</button>
+      </div>
+      <div id="successMessage">
+        <p>Password correct! Redirecting...</p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

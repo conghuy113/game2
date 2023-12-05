@@ -1,0 +1,67 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  background-color: #ef6868;
+}
+img:hover {
+  box-shadow: -6px 4px 1px 1px #c6692b;
+}
+.container {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 80%;
+}
+
+#imageContainer {
+  overflow: hidden;
+  position: relative;
+}
+
+#imageGallery {
+  display: flex;
+  transition: transform 0.5s ease; /* Hiệu ứng chuyển ảnh */
+}
+
+img {
+  width: calc(
+    20% - 10px
+  ); /* 20% để chia đều ra 5 cột, 10px để tạo khoảng cách giữa các hình ảnh */
+  max-width: 100%;
+  height: 420spx;
+  border-radius: 8px;
+  margin-right: 10px;
+}
+
+.navigation {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.endGame {
+  cursor: pointer;
+}
+
+.btn-endGame {
+  background-color: brown;
+}

@@ -1,0 +1,68 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  background-color: #ef6868;
+}
+
+.container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.script {
+  color: cornflowerblue;
+  background-color: white;
+  cursor: pointer;
+  border: none;
+  padding-bottom: 7px;
+  display: inline-flex;
+}
+
+.script:hover {
+  color: red;
+}
+#passwordForm,
+#successMessage {
+  display: block;
+}
+
+#successMessage {
+  display: none;
+  color: green;
+}
+
+input {
+  padding: 8px;
+  margin: 10px 0;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+.btn-submit {
+  padding: 10px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 20em;
+  cursor: pointer;
+}
+
+h4 {
+  margin-bottom: 7px;
+}
+
+.btn-submit:hover {
+  background-color: #eba0a8;
+}
+
+.description {
+  margin-bottom: 0;
+}
